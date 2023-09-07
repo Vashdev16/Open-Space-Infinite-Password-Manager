@@ -1,7 +1,7 @@
 # Open-Space-Infinite-Password-Manager
 
 
-<!DOCTYPE html>
+
 <html lang="en">
 
 <head>
