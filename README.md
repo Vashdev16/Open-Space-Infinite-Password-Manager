@@ -1,7 +1,4 @@
-# Open-Space-Infinite-Password-Manager
-
-
-
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -210,9 +207,9 @@ const showPasswords = () => {
             const element = arr[index];
 
             str += `<tr>
-    <td>${element.Service} <img onclick="copyText('${element.Service}')" src="./copy.svg" alt="Copy Button" width="30" width="10" height="10">
+    <td>${element.Service} <img onclick="copyText('${element.Service}')" src="./copy.svg" alt="Copy Button" width="10" width="10" height="10">
     </td>
-    <td>${element.username} <img onclick="copyText('${element.username}')" src="./copy.svg" alt="Copy Button" width="30" width="10" height="10">
+    <td>${element.username} <img onclick="copyText('${element.username}')" src="./copy.svg" alt="Copy Button" width="10" width="10" height="10">
     </td>
     <td>${maskPassword(element.password)} <img onclick="copyText('${element.password}')" src="./copy.svg" alt="Copy Button" width="10" width="10" height="10">
     </td>
