@@ -139,7 +139,7 @@ h3 {
 img {
     cursor: pointer;
     position: relative;
-    bottom: 7px;
+    bottom: 10px;
     width: 15px;
     height: 13px;
 }
@@ -207,11 +207,11 @@ const showPasswords = () => {
             const element = arr[index];
 
             str += `<tr>
-    <td>${element.Service} <img onclick="copyText('${element.Service}')" src="./copy.svg" alt="Copy Button" width="10" width="10" height="10">
+    <td>${element.Service} <img onclick="copyText('${element.Service}')" src="./copy.svg" alt="Copy Button" width="50" width="50" height="50">
     </td>
-    <td>${element.username} <img onclick="copyText('${element.username}')" src="./copy.svg" alt="Copy Button" width="10" width="10" height="10">
+    <td>${element.username} <img onclick="copyText('${element.username}')" src="./copy.svg" alt="Copy Button" width="50" width="50" height="50">
     </td>
-    <td>${maskPassword(element.password)} <img onclick="copyText('${element.password}')" src="./copy.svg" alt="Copy Button" width="10" width="10" height="10">
+    <td>${maskPassword(element.password)} <img onclick="copyText('${element.password}')" src="./copy.svg" alt="Copy Button" width="50" width="50" height="50">
     </td>
     <td><button class="btnsm" onclick="deletePassword('${element.Service}')">Delete</button></td>
         </tr>`
